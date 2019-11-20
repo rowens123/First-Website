@@ -1,0 +1,137 @@
+body {
+    height:100%;
+    margin: 500;
+    padding:0;
+}
+div {
+    height: 200px;
+    margin:0;
+    padding:0;
+    background:linear-gradient(to top, rgb(46, 211, 233) 0%, whitesmoke 80%);
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+h2 { 
+	position: relative; 
+	top: -30px;
+	left: 10px;
+    font-weight: inherit;
+}
+a {
+   position: relative;
+   top: -180px;
+   left: 800px
+}
+h3 {
+    position: relative;
+    top:-100px;
+    left:50px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+p {
+    position: relative;
+    top: -100px;
+    left: 50px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.me{
+    position: relative;
+    top: -410px;
+    left: 690px;
+}
+
+.plane {
+    position: relative;
+    top: -180px;
+    left: 50px;
+}
+
+.cloudSun {
+    position: relative;
+    top: -250px;
+    left: 50px;
+}
+
+.cloud1 {
+    position: relative;
+    top: -175px;
+    left: -500px;
+}
+.cloud2 {
+    position: relative;
+    top: -250px;
+    left: -520px;
+ }
+
+.cloud3 {
+    position: relative;
+    top: -160px;
+    left: -570px;
+ }
+
+ h4 {
+    font-family: monospace; 
+    font-size: 25px;
+    color: whitesmoke;
+    position: relative; 
+	top: -180px;
+	left: 50px;
+ }
+
+ .h31 {
+    font-family: monospace; 
+    font-size: 20px;
+    color: whitesmoke;
+    position: relative; 
+	top: -150px;
+	left: 75px;
+ }
+
+ .h32 {
+    font-family: monospace; 
+    font-size: 20px;
+    color: whitesmoke;
+    position: relative; 
+	top: -100px;
+	left: 75px;
+ }
+
+ .h33 {
+    font-family: monospace; 
+    font-size: 20px;
+    color: whitesmoke;
+    position: relative; 
+	top: -50px;
+	left: 75px;
+ }
+
+ .progressbar {
+     position: relative;
+     top: -325px;
+     left: 210px;
+     width: 500px;
+     height: 200px;
+ }
+
+ .progressbar2 {
+    position: relative;
+    top: -250px;
+    left: 210px;
+    width: 500px;
+    height: 200px;
+}
+.progressbar3 {
+    position: relative;
+    top: -175px;
+    left: 210px;
+    width: 500px;
+    height: 200px;
+}
