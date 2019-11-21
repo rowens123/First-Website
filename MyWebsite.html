@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css" />
+    <title>Ryan Owens - Software Engineer </title>
 </head>
 
 <html>
@@ -13,7 +14,7 @@
             <font size= "9">Ryan Owens </font>
         </h1>
         <h2 style="color:rgb(0, 0, 0); text-indent: 110px">
-                <font size= "2"> Software Dev in Redmond, WA </font>
+                <font size= "2"> Software Engineer in Redmond, WA </font>
         </h2>
     </div>
 </header>
@@ -95,6 +96,20 @@
         value: 40
       });
     } );
+    $(function() {
+	// Get page title
+  	var pageTitle = $("title").text();
+
+	// Change page title on blur
+	$(window).blur(function() {
+	  $("title").text("Don't forget to read this...");
+	});
+
+	// Change page title back on focus
+	$(window).focus(function() {
+	  $("title").text(pageTitle);
+	});
+});
     </script>
 </head>
 
